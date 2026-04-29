@@ -1,0 +1,41 @@
+body{
+    background-color: aqua;
+    background-image: cover;
+}
+
+.blog-post-card {
+    background-color: white;
+    border-radius: 10px;
+    width: 500px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.post-img {
+    border-bottom: 20px solid blueviolet;
+    height: 100%;
+    width:  100%;
+    object-fit: cover;
+}
+
+.post-content {
+    padding: 5px;
+}
+
+.post-title , .post-excerpt{
+    color: blue;
+    margin: 10px;
+}
+
+.read-more {
+    color: orange;
+    background-color: beige;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 20px;
+    display: inline-block;   
+}
+
+.read-more:hover{
+    background-color: black;
+}

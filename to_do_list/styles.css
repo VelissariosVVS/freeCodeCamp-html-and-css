@@ -1,0 +1,43 @@
+.sub-item-link:link {
+    color: red;
+}
+
+.sub-item-link:visited {
+    color: yellow;
+}
+
+.sub-item-link:hover {
+    color: aquamarine;
+}
+
+.sub-item-link:focus {
+    color: blue;
+    outline: 2px solid blue;
+}
+
+.sub-item-link:active {
+    color: darkgreen;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* body{
+    text-align: center;
+    max-width: 50%;
+    max-height: 100px;
+    background-color: aqua;
+} */
+
+ul {
+  text-align: center;
+  list-style-position: inside;
+}
+
+div {
+    
+    text-align: center;
+    display: inline-block;
+}
+
